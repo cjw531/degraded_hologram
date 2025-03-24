@@ -1,0 +1,14 @@
+# To run: $ conda env create -f environment.yml
+name: holonerf
+channels:
+    - conda-forge
+dependencies:
+    - python=3.8
+    - pip
+    - numpy
+    - matplotlib
+    - ipywidgets
+    - tqdm
+    - pip:
+      - opencv-contrib-python-headless==4.4.0.40
+      
